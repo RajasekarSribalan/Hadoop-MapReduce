@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package hadoop.mapreduce;
+package wordcount;
 
 import java.io.IOException;
 import java.util.StringTokenizer;
@@ -30,6 +30,15 @@ import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.util.GenericOptionsParser;
+
+/**
+ * Word count example
+ * 
+ * For more info,please refer readme.txt
+ * 
+ * @author raj
+ *
+ */
 
 public class WordCount {
 

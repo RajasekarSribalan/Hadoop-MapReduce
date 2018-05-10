@@ -1,0 +1,28 @@
+Working with multiple input files
+
+In this example we are going to deal with multiple input file, to simulate a simple join.
+
+Input Files 
+
+Customer :
+
+Mobile,Name
+123,mani
+456,vijay
+888,ravi
+
+Delivery
+
+Mobile,Staus
+123,0
+888,1
+456,1
+
+
+The task is to write a map reduce program to get a joined outout in the following manner
+
+mani	0
+vijay	1
+ravi	1
+
+The concept here is to identify key from multiple input file, pull relevant data and stich them together in reduce. This is typicaly how to handle join. 

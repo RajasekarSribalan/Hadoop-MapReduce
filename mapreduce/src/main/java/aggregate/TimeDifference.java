@@ -1,4 +1,4 @@
-package hadoop.mapreduce;
+package aggregate;
 
 import java.io.IOException;
 import java.util.StringTokenizer;
@@ -31,6 +31,8 @@ import org.apache.hadoop.util.GenericOptionsParser;
    mmaniga 2
    Ram 1
    Dell 2
+   
+   For more info,please refer readme.txt
  * 
  * @author raj
  *
