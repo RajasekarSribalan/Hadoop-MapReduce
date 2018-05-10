@@ -1,0 +1,20 @@
+Map reduce jobs.
+
+1.Clone the repositry.
+
+2.Create an input file in Hadoop file system.
+
+3.Create an output directory
+
+4.Add External libraries to resolved dependency issues.
+
+/usr/local/hadoop/share/hadoop/common/lib
+/usr/local/hadoop/share/hadoop/mapreduce/lib
+/usr/local/hadoop/share/hadoop/yarn/lib
+/usr/local/hadoop/share/hadoop/tools/lib
+
+5.Start all hadoop services and Job History service.
+
+6.Run This below command to execute the map reduce job.
+
+hadoop jar wordcount.jar hadoop.mapreduce.WordCount /files/input.txt /files/out
