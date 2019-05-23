@@ -18,3 +18,11 @@ Map reduce jobs.
 6.Run This below command to execute the map reduce job.
 
 hadoop jar wordcount.jar hadoop.mapreduce.WordCount /files/input.txt /files/out
+
+
+# to install multi node cluster
+
+```
+https://www.linode.com/docs/databases/hadoop/how-to-install-and-set-up-hadoop-cluster/
+http://chennaihug.org/knowledgebase/spark-master-and-slaves-multi-node-installation/
+```
